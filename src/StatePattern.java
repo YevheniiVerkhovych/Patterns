@@ -11,7 +11,7 @@ public class StatePattern {
             radio.play();
             radio.nextStation();
         }
-        
+
 
         Human human = new Human();
         human.setState(new Work());
